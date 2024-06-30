@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.navigation {
+    background-image: linear-gradient(to right, #36256e, #a30057, #000b8a);
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    letter-spacing: 1px;
+    border: 0;
+    outline: 0;
+    background-color: #ffffff;
+    color: #36256e;
+    padding: 7px 7px;
+    border-radius: 50px;
+    margin-right: 16px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    font-weight: 600;
+}
+
+.search-btn {
+    letter-spacing: 1px;
+    border: 0;
+    outline: 0;
+    background-color: #ffffff;
+    color: #36256e;
+    padding: 7px 20px;
+    border-radius: 50px;
+    margin-right: 16px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.player img {
+    margin-top: 5px;
+    height: 170px;
+}
+
+.info table {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.info table th {
+    vertical-align: top;
+    text-align: left;
+    color: #36256e;
+    padding-left: 5px;
+    border: 1px solid #00b3ff;
+    width: 35%;
+}
+
+.info table td {
+    vertical-align: top;
+    text-align: left;
+    color: #e73493;
+    padding-left: 5px;
+    border: 1px solid #00b3ff;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.row .stats {
+    padding-left: auto;
+}
+
+.stats {
+    line-height: 30px;
+}
+
+.stats table th {
+    color: #36256e;
+    border: 1px solid #00b3ff;
+    text-align: center;
+}
+
+.stats table td {
+    color: #e73493;
+    border: 1px solid #00b3ff;
+    text-align: center;
+}
+
+table tr .matchType {
+    color: #36256e;
+}
+
+.bowling {
+    margin-top: 30px;
+}
